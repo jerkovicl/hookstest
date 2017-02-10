@@ -5,6 +5,9 @@
   "author": "Luka Jerkovi",
   "devDependencies": {
     "husky": "*",
-    "lodash": "*",
+    "lodash": "*"
+  },
+  "scripts": {
+    "install": "npm prune"
   }
 }
