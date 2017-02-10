@@ -6,8 +6,5 @@
   "devDependencies": {
     "husky": "*",
     "lodash": "*",
-  },
-  "scripts": {
-    "install:" "npm prune"
   }
 }
