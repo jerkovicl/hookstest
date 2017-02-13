@@ -1,0 +1,5 @@
+[include]
+  path = ../.gitconfig
+
+[init]
+  templatedir = '~/.git-templates'

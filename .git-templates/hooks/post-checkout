@@ -1,0 +1,16 @@
+#!binbash
+#
+# Check package.json and npm install after git checkout.
+# Put this to .githookspost-checkout
+#
+
+PREVIOUS_HEAD=$1
+NEW_HEAD=$2
+BRANCH_SWITCH=$3
+
+# if [ $(git diff $PREVIOUS_HEAD..$NEW_HEAD --name-only -- package.json  wc -l) == 1 ]; then
+    # echo [post-checkout] package.json changed
+    # npm install
+# fi
+
+npm install
